@@ -19,4 +19,4 @@ for i in range(n):
     n1=input("Enter Student Name : ")
     n2=int(input("Enter Student Marks : "))
     n3[n1]=n2
-print(n3)
+print(n3) 
