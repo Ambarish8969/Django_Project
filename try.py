@@ -1,22 +1,20 @@
-# list1 = [1,1,2,3,4,5,5,7,6,9,10]
-# list2 = [11,12,13,4,5,6,7,18,19,20]
-# list3 = []
-# for i in list1:
-#     if i in list2:
-#         pass
-#     else:
-#         list3.append(i)
-# for i in list2:
-#     if i in list1:
-#         pass
-#     else:
-#         list3.append(i)
-# print(len(list3))
-
-n=int(input())
-n3={}
-for i in range(n):
-    n1=input("Enter Student Name : ")
-    n2=int(input("Enter Student Marks : "))
-    n3[n1]=n2
-print(n3) 
+x=[
+    [40,12,56],
+    [59,78,16],
+    [58,69,37]
+]
+y=[
+    [40,12,56],
+    [59,78,16],
+    [58,69,37]
+]
+results=[
+    [0,0,0],
+    [0,0,0],
+    [0,0,0]
+]
+for i in range(len(x)):
+    for j in range(len(x[0])):
+        results [i][j]=x[i][j]/y[i][j]
+for r in results:
+    print(r)
